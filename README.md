@@ -1,16 +1,12 @@
-# stream_arifah
+Nama : Arifah Nur Basyiroh Machi
+NIM : 362358302018
+Kelas : 2B TRPL
 
-A new Flutter project.
+SOAL 3
+1. Jelaskan fungsi keyword yield*!
+Jawab :
+Keyword yield* digunakan dalam fungsi generator (async* atau sync*) untuk meneruskan seluruh elemen dari stream atau iterable lain ke dalam stream yang dihasilkan. Ini seperti "memasukkan" elemen-elemen dari sumber lain tanpa perlu menulis yield satu per satu.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Apa maksud isi perintah kode tersebut?
+Jawab :
+Kode tersebut membuat fungsi getColors yang menghasilkan stream (Stream<Color>) dari elemen-elemen dalam daftar colors. Setiap 1 detik, fungsi ini memancarkan elemen berikutnya dari daftar secara bergiliran, dan kembali ke awal jika sudah mencapai akhir.
