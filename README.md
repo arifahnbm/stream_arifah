@@ -14,3 +14,16 @@ Kode tersebut membuat fungsi getColors yang menghasilkan stream (Stream<Color>) 
 SOAL 4
 ![alt text](image.png)
 ![alt text](image-1.png)
+
+SOAL 5
+1. Jelaskan perbedaan menggunakan listen dan await for!
+Jawab :
+listen
+- Digunakan untuk mendaftar callback yang dipanggil setiap kali ada data baru di stream.
+- Cocok untuk stream dengan data berkelanjutan (misalnya, event listeners).
+- Tidak memerlukan fungsi asynchronous.
+
+await for
+- Digunakan untuk mengiterasi stream seperti loop, menunggu data baru sebelum melanjutkan.
+- Memerlukan fungsi asynchronous.
+- Cocok untuk stream dengan pemrosesan sekuensial.
