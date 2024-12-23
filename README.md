@@ -10,3 +10,7 @@ Keyword yield* digunakan dalam fungsi generator (async* atau sync*) untuk meneru
 2. Apa maksud isi perintah kode tersebut?
 Jawab :
 Kode tersebut membuat fungsi getColors yang menghasilkan stream (Stream<Color>) dari elemen-elemen dalam daftar colors. Setiap 1 detik, fungsi ini memancarkan elemen berikutnya dari daftar secara bergiliran, dan kembali ke awal jika sudah mencapai akhir.
+
+SOAL 4
+![alt text](image.png)
+![alt text](image-1.png)
